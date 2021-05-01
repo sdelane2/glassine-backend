@@ -6,7 +6,7 @@ class CreateHandlers < ActiveRecord::Migration[6.0]
       t.date :date_of_birth
       t.text :description
       t.string :city
-      t.image_url :thumbnail
+      t.string :thumbnail
       t.integer :hour_rate
 
       t.timestamps
